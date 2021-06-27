@@ -27,7 +27,6 @@ io.on("connection", socket => {
         console.log(palabra);
         socket.emit('Server:palabra', palabra);
     })
-
 });
 app.get('/', (req,res)=>{
     res.send('Hola Pedro')
