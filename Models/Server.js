@@ -31,7 +31,7 @@ class Server {
             console.log('Server run puerto ', this.port)
         });
         this.app.get('/', (req,res)=>{
-            res.send('Hola Pedro')
+            res.send('Hola Manuel')
         });
     }
 
